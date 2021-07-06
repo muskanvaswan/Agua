@@ -1,0 +1,18 @@
+Implication.java
+ Implication
+And.java
+ And
+Solver.java
+ Solver
+Symbol.java
+ Symbol
+Or.java
+ Or
+Helper.java
+ Helper
+Not.java
+ Not
+Sentence.java
+ Sentence
+Biconditional.java
+ Biconditional
