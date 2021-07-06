@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.example",
+    "module": "Agua",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "63yunumneve3fbinkujhpur73a"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "Agua-1.0-SNAPSHOT.jar",
+          "url": "Agua-1.0-SNAPSHOT.jar",
+          "size": 14149,
+          "sha512": "da66f02c73aad6307853aabcf922a60b8369c31190c57f39f69135a53d99308d862fe594ecb56f893087a646f6effdfd7d632706fca30b75a8877a22c8669fad",
+          "sha256": "3c6c7482ef4d0631c79ba10b5011f936de33a3072203738bc7ff9507bc9dc5ac",
+          "sha1": "68430233307ea1504ffaff7b864470a9f60e4765",
+          "md5": "f7e5cde391fee32561cb32c175b375a7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Agua-1.0-SNAPSHOT.jar",
+          "url": "Agua-1.0-SNAPSHOT.jar",
+          "size": 14149,
+          "sha512": "da66f02c73aad6307853aabcf922a60b8369c31190c57f39f69135a53d99308d862fe594ecb56f893087a646f6effdfd7d632706fca30b75a8877a22c8669fad",
+          "sha256": "3c6c7482ef4d0631c79ba10b5011f936de33a3072203738bc7ff9507bc9dc5ac",
+          "sha1": "68430233307ea1504ffaff7b864470a9f60e4765",
+          "md5": "f7e5cde391fee32561cb32c175b375a7"
+        }
+      ]
+    }
+  ]
+}
