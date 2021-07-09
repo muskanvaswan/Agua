@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"And"},{"p":"<Unnamed>","l":"Biconditional"},{"p":"<Unnamed>","l":"Helper"},{"p":"<Unnamed>","l":"Implication"},{"p":"<Unnamed>","l":"Not"},{"p":"<Unnamed>","l":"Or"},{"p":"<Unnamed>","l":"Sentence"},{"p":"<Unnamed>","l":"Solver"},{"p":"<Unnamed>","l":"Symbol"}]
