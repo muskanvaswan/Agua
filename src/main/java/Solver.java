@@ -1,20 +1,19 @@
 import java.util.*;
 
 public class Solver {
+    /**
+     * Checks if knowledge base entails query, given a particular model.
+     */
     public static boolean checkAll(Sentence knowledge, Sentence query, Set<String> symbols, Map<String, Boolean> model){
-        /**
-         * Checks if knowledge base entails query, given a particular model.
-         */
+
 
         // If model has an assignment for each symbol
         if (symbols.size() == 0){
             try{
-                System.out.println(model);
-                System.out.println(knowledge.evaluate(model));
 
                 // If knowledge base is true in model, then query must also be true
-                //if (knowledge.evaluate(model))
-                //return query.evaluate(model);
+                if (knowledge.evaluate(model))
+                    return query.evaluate(model);
             }
             catch(Exception e){
                 System.out.println(Helper.TEXT_RED + "Error Occoured:"+ e.toString());
@@ -52,10 +51,11 @@ public class Solver {
         }
     }
 
+    /**
+     * Checks if knowledge base entails query.
+     */
+
     public static boolean modelCheck(Sentence knowledge, Sentence query){
-        /**
-         * Checks if knowledge base entails query.
-         */
 
         // Get all symbols in both knowledge and query
         Set<String> symbols = knowledge.symbols();

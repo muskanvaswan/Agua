@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16c098b2-d6ca-4382-9500-01eca48c48d3" name="Default Changelist" comment="updating doc comments">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Sentence.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Sentence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/And.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/And.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Biconditional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Biconditional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Implication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Implication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Not.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Not.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Or.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Or.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Symbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Symbol.java" afterDir="false" />
+    <list default="true" id="16c098b2-d6ca-4382-9500-01eca48c48d3" name="Default Changelist" comment="making all classes public">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +64,7 @@
       <workItem from="1625587690689" duration="1317000" />
       <workItem from="1625589587166" duration="2278000" />
       <workItem from="1625843528743" duration="1828000" />
-      <workItem from="1625845469901" duration="406000" />
+      <workItem from="1625845469901" duration="1137000" />
     </task>
     <task id="LOCAL-00001" summary="adding javadoc">
       <created>1625844063424</created>
@@ -90,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625845172655</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="making all classes public">
+      <created>1625845904263</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625845904263</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding javadoc" />
     <MESSAGE value="updating doc comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating doc comments" />
+    <MESSAGE value="making all classes public" />
+    <option name="LAST_COMMIT_MESSAGE" value="making all classes public" />
   </component>
 </project>
