@@ -4,10 +4,10 @@ class Helper{
 
     public static final String TEXT_RED = "\u001B[31m";
 
+    /**
+     * Checks if a string has balanced parentheses.
+     */
     public static boolean balanced(String expr){
-        /**
-         * Checks if a string has balanced parentheses.
-         */
         if (expr.isEmpty())
             return true;
 
@@ -30,10 +30,10 @@ class Helper{
         return expr.isEmpty() ? true : false;
     }
 
+    /**
+     * Checks if a string has only alphabaets.
+     */
     public static boolean isAlpha(String s) {
-        /**
-         * Checks if a string has only alphabaets.
-         */
         char[] chars = s.toCharArray();
 
         for (char c : chars) {
@@ -44,11 +44,11 @@ class Helper{
         return true;
     }
 
+    /**
+     * Appends the obj argument to the Object array
+     * Returns the new array
+     */
     public static Sentence[] addToSentenceArray(Sentence[] currentArray, Sentence obj){
-        /**
-         * Appends the obj argument to the Object array
-         * Returns the new array
-         */
         ArrayList<Sentence> temp = new ArrayList<Sentence>(Arrays.asList(currentArray));
         temp.add(obj);
         return temp.toArray(new Sentence[0]);

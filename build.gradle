@@ -14,9 +14,7 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
-javadoc {
-    source = '/src/main/java/*.java'
-}
+
 publishing {
     publications {
         library(MavenPublication) {
