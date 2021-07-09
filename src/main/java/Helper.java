@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Helper{
+public class Helper{
 
     public static final String TEXT_RED = "\u001B[31m";
 

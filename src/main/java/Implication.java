@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Implication extends Sentence{
+public class Implication extends Sentence{
 
     Sentence antecedent;
 

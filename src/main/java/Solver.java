@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solver {
+public class Solver {
     public static boolean checkAll(Sentence knowledge, Sentence query, Set<String> symbols, Map<String, Boolean> model){
         /**
          * Checks if knowledge base entails query, given a particular model.

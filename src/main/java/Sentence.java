@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Sentence {
+public class Sentence {
 
     /**
      * Takes in thre statement and evaluates it

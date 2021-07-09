@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Not extends Sentence{
+public class Not extends Sentence{
     public Sentence operand;
 
     public Not(Sentence operand_input){

@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Biconditional extends Sentence{
+public class Biconditional extends Sentence{
 
     Sentence left;
 

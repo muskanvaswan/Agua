@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Or extends Sentence{
+public class Or extends Sentence{
     public Sentence[] disjuncts;
 
     public Or(Sentence ...disjunctsInput){

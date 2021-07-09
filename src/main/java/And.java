@@ -1,6 +1,6 @@
 import java.util.*;
 
-class And extends Sentence{
+public class And extends Sentence{
 
     public Sentence[] conjuncts;
 

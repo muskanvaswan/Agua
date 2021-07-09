@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Symbol extends Sentence{
+public class Symbol extends Sentence{
 
     String name;
 
